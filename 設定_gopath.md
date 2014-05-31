@@ -44,14 +44,13 @@ user/aaa/
 user/bbb/
 ~~~
 
-當在 go 程式碼中 import "github.com/PuerkitoBio/gocrawl"
+當在 go 程式碼中 import "github.com/PuerkitoBio/goquery"
 
 編譯器就會在 GOPATH 和你的 import 路徑串起來, 然後再這些路徑中
 
 ~~~
-user/aaa/github.com/PuerkitoBio/gocrawl
-user/bbb/github.com/PuerkitoBio/gocrawl
+user/aaa/github.com/PuerkitoBio/goquery
+user/bbb/github.com/PuerkitoBio/goquery
 ~~~
 
 找你所要使用的套件
-ㄘ
